@@ -3,3 +3,33 @@ body {
   height: 100%;
   margin: 0;
 }
+header {
+  text-align: center;
+}
+
+nav a {
+  background-color: rgb(228, 187, 187);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+}
+
+#featured-property p {
+  text-align: center;
+  margin: auto;
+  width: 600px;
+  margin-bottom: 20px;
+}
+#details {
+  background-color: red;
+  display:flex;
+  justify-content: space-evenly;
+}
+
+
+ 
